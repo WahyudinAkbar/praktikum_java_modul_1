@@ -27,6 +27,8 @@ public class DataTypes {
     System.out.print("Input Tampan? : ");
     tampan = scanner.nextBoolean();
 
+    namaBelakang = JOptionPane.showInputDialog("Nama Belakang : ");
+
     System.out.println("============ Output ============");
     System.out.println("Nama Depan : " + namaDepan);
     System.out.println("Nama Tengah : " + namaTengah);
